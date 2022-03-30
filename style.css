@@ -1,19 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 
 body {
     font-family: 'Roboto';
     margin: 0;
 }
 
+.body {
+    padding: 0px 25vw;
+}
+
 .body-one {
     background-color: #1F2937;
     margin: 0;
     padding-top: 24px;
-    padding-left: 216px;
-    padding-right: 216px;
     padding-bottom: 120px;
 }
 
+.body-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 36px;
+}
+
+.hero,
 .header {
     display: flex;
     justify-content: space-between;
@@ -21,7 +31,7 @@ body {
 
 .logo {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 900;
     text-decoration: none;
     color: #F9FAF8;
 }
@@ -39,9 +49,6 @@ body {
 
 .hero {
     margin-top: 120px;
-    display: flex;
-    justify-content: space-between;
-    gap: 24px;
 }
 
 .hero-img {
@@ -55,11 +62,12 @@ body {
 
 .hero-text {
     width: 500px;
+    margin-right: 24px;
 }
 
 .hero-main-text {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
@@ -72,4 +80,35 @@ body {
     border-radius: 8px;
     border: none;
     color: white;
+}
+
+.info-header {
+    margin-top: 0;
+    margin-bottom: 48px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-images {
+    display: flex;
+    gap: 48px;
+}
+
+.info-card {
+    width: 148px;
+    text-align: center;
+}
+
+.info-img {
+    height: 148px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 16px;
+    border-width: 4px;
+    margin-bottom: 8px;
+}
+
+.info-img-text {
+    color: grey;
 }
