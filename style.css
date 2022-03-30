@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
 
 body {
     font-family: 'Roboto';
@@ -9,18 +9,27 @@ body {
     padding: 0px 25vw;
 }
 
-.body-one {
+.top-section {
     background-color: #1F2937;
     margin: 0;
     padding-top: 24px;
     padding-bottom: 120px;
 }
 
-.body-two {
+.info-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 36px;
+    padding-bottom: 120px;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .hero,
@@ -96,12 +105,12 @@ body {
 }
 
 .info-card {
-    width: 148px;
+    width: 172px;
     text-align: center;
 }
 
 .info-img {
-    height: 148px;
+    height: 172px;
     border-color: #3882F6;
     border-style: solid;
     border-radius: 16px;
@@ -111,4 +120,23 @@ body {
 
 .info-img-text {
     color: grey;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    color: #1F2937;
+}
+
+.big-quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: auto;
 }
