@@ -118,6 +118,24 @@ body {
     border-radius: 16px;
     border-width: 4px;
     margin-bottom: 8px;
+    background-position: center;
+    background-size: 120%;
+}
+
+.susan {
+    background-image: url("images/susan-cropped.jpg");
+}
+
+.larry {
+    background-image: url("images/larry-cropped.jpg");
+}
+
+.rebecca {
+    background-image: url("images/rebecca-cropped.jpg");
+}
+
+.ned {
+    background-image: url("images/ned-cropped.jpg");
 }
 
 .info-img-text {
