@@ -103,6 +103,7 @@ body {
 
 .info-images {
     display: flex;
+    flex-wrap: wrap;
     gap: 48px;
 }
 
@@ -113,13 +114,14 @@ body {
 
 .info-img {
     height: 172px;
-    border-color: #3882F6;
-    border-style: solid;
-    border-radius: 16px;
+    /* border-color: #3882F6; */
+    /* border-style: solid; */
+    border-radius: 50%;
     border-width: 4px;
     margin-bottom: 8px;
     background-position: center;
     background-size: 120%;
+    box-shadow: 3px 3px 8px;
 }
 
 .susan {
