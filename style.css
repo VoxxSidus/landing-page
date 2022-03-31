@@ -5,6 +5,11 @@ body {
     margin: 0;
 }
 
+h1,
+h2 {
+    margin: 0;
+}
+
 .body {
     padding: 0px 25vw;
     padding-bottom: 120px;
@@ -87,7 +92,6 @@ body {
     font-weight: 700;
     background-color: #3882F6;
     padding: 8px 32px;
-    margin-top: 16px;
     border-radius: 8px;
     border: none;
     color: white;
@@ -118,7 +122,6 @@ body {
     /* border-style: solid; */
     border-radius: 50%;
     border-width: 4px;
-    margin-bottom: 8px;
     background-position: center;
     background-size: 120%;
     box-shadow: 4px 4px 12px;
@@ -164,6 +167,7 @@ body {
 .cta-text {
     font-size: 18px;
     width: 520px;
+    margin: 0;
 }
 
 .cta-signup {
