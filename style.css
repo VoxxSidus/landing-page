@@ -121,23 +121,7 @@ body {
     margin-bottom: 8px;
     background-position: center;
     background-size: 120%;
-    box-shadow: 3px 3px 8px;
-}
-
-.susan {
-    background-image: url("images/susan-cropped.jpg");
-}
-
-.larry {
-    background-image: url("images/larry-cropped.jpg");
-}
-
-.rebecca {
-    background-image: url("images/rebecca-cropped.jpg");
-}
-
-.ned {
-    background-image: url("images/ned-cropped.jpg");
+    box-shadow: 4px 4px 12px;
 }
 
 .info-img-text {
