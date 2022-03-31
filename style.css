@@ -94,7 +94,12 @@ h2 {
     padding: 8px 32px;
     border-radius: 8px;
     border: none;
-    color: white;
+    color: #F9FAF8;
+}
+
+.signup:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
 }
 
 .info-header {
@@ -157,6 +162,7 @@ h2 {
     background-color: #3882F6;
     border-radius: 8px;
     padding: 36px 96px;
+    box-shadow: 4px 4px 12px rgb(0, 0, 0);
 }
 
 .cta-header {
