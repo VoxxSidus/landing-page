@@ -132,8 +132,17 @@ h2 {
     box-shadow: 4px 4px 12px;
 }
 
-.info-img-text {
+.employee-name,
+.job-title {
     color: grey;
+}
+
+.employee-name {
+    font-weight: 700;
+}
+
+.job-title {
+    /* font-weight: 700; */
 }
 
 .quote-container {
